@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--바깥정보부분-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+        <!--바깥 정보부분0.4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+                <Button
+                    android:background="@drawable/openborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="파는음식"
+                    android:id="@+id/food"
+                    android:clickable="false"
+                    android:layout_weight="1.0"/>
+
+                <Button
+                    android:background="@drawable/openborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="지도보기"
+                    android:id="@+id/findmap"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:layout_weight="1.0"/>
+
+                <Button
+                    android:background="@drawable/openborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="전화걸기"
+                    android:id="@+id/phone"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:layout_weight="1.0"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <com.github.mikephil.charting.charts.RadarChart
+                    android:id="@+id/chart"
+                    android:background="@drawable/openborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.4"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+            <Button
+                android:background="@drawable/openborder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="현재상황"
+                android:id="@+id/status"
+                android:clickable="false"/>
+            <Button
+                android:background="@drawable/openborder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="평가하기"
+                android:id="@+id/review"
+                android:clickable="true"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <!--안정보부분0.6-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.6" android:background="@drawable/openborder">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mList2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="1dp" android:paddingRight="1dp"/>
+    </LinearLayout>
+    <!--안정보부분-->
+</LinearLayout>

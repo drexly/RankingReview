@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/latest"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon11"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/service"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon44"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:onClick="onClick"
+            android:layout_margin="15dp"
+            android:gravity="center_vertical">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/replies"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon77"
+                android:onClick="onClick" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/taste"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon22"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent"
+            android:text="@string/clean" android:layout_height="fill_parent" android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/clean"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon55"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent"
+            android:text="@string/air" android:layout_height="fill_parent" android:layout_weight="1"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/total"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon88"
+                android:onClick="onClick" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/price"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon33"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+            android:text="@string/total" android:layout_height="fill_parent" android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/air"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon66"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+            android:text="@string/random" android:layout_height="fill_parent" android:layout_weight="1"
+            android:clickable="true"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp">
+            <com.appspot.tongin_1302.tdn.SquareButton
+                android:id="@+id/random"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon99"
+                android:onClick="onClick" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

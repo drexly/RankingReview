@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="만든이: 김주현\n이메일: emoil@email.com\n웹주소: tongin-1302.appspot.com\n\n2016년, 전통시장인 통인시장의 번영과 시장 활성화를 위해 만들어졌습니다."
+        android:id="@+id/textView"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">통인시장 도시락</string>
+    <string name="main_title">통인시장 도시락집 랭킹리뷰</string>
+    <string name="main_menu">랭킹 리뷰</string>
+    <string name="latest">최신 리뷰\n업데이트 순</string>
+    <string name="taste">맛 순</string>
+    <string name="price">가격 순</string>
+    <string name="service">서비스 순</string>
+    <string name="clean">청결도 순</string>
+    <string name="air">분위기 순</string>
+    <string name="replies">작성자"\n"많은 순</string>
+    <string name="total">종합 평점 순"\n" 및 평가</string>
+    <string name="random">전체\n리뷰</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list1">list1</string>
+    <string name="google_maps_key">AIzaSyC9c1UDmnb5grYT01hKi7gxJ8iB_Ccf6C0</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tab">tabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="maker">만든이</string>
+</resources>
